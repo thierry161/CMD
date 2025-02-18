@@ -1,0 +1,36 @@
+# O que eu aprendi na aula de hj 
+
+## Resumo do Script Batch
+
+Esse script em **Batch** é uma maneira prática de organizar pastas com base no **ano** e **mês** que eu fornecer. Ele também calcula o número de dias de cada mês, considerando se o ano é bissexto ou não.
+
+## O que o script faz:
+
+1. **Verifica se o mês está correto**:
+   - Se eu passar um mês fora do intervalo de 1 a 12, o script me avisa e sai.
+
+2. **Criação do diretório do ano**:
+   - Se a pasta do ano (o primeiro parâmetro) não existir, o script cria automaticamente.
+
+3. **Determinação se o ano é bissexto**:
+   - O script calcula se o ano que eu passei é bissexto, verificando a divisibilidade por 4, 100 e 400.
+   - Se for bissexto, fevereiro terá 29 dias, caso contrário, 28 dias.
+
+4. **Criação do diretório do mês**:
+   - Dentro da pasta do ano, ele cria uma subpasta para o mês que eu indicar.
+
+5. **Definição do número de dias do mês**:
+   - Ele define quantos dias o mês tem com base no mês e no ano (com fevereiro ajustado se o ano for bissexto).
+
+6. **Criação de pastas para cada dia**:
+   - Para o mês que eu escolhi, o script cria pastas para cada dia, como "Dia 1", "Dia 2", etc.
+
+## O que eu aprendi:
+
+- Como usar **condições** e **loops** no Batch para controlar o fluxo do script.
+- Como criar e manipular **pastas** de forma automática.
+- Como calcular um **ano bissexto** e ajustar os dias de fevereiro de acordo.
+
+
+
+
